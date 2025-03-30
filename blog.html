@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Pet - Imperio Dy Jhady</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Poppins', 'sans-serif'],
+          },
+          colors: {
+            primary: {
+              500: '#16a34a',
+              600: '#4ade80',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <header class="bg-gradient-to-r from-primary-500 to-primary-600 py-10 px-5 text-center text-white rounded-b-[80px]">
+    <h1 class="text-4xl md:text-5xl font-bold mb-2">Blog Pet - Amiguinhos Felizes</h1>
+    <p class="text-xl">Conheça nossos cachorrinhos e suas histórias cheias de alegria!</p>
+  </header>
+  <!-- NAVBAR SIMPLES CENTRALIZADA -->
+<nav class="bg-white shadow-md py-4">
+    <div class="max-w-screen-lg mx-auto flex justify-between items-center px-4 md:px-10 ">
+      <a href="./index.html" class="text-gray-700 hover:text-green-600 font-medium">Produtos</a>
+      <a href="./sobre.html" class="text-gray-700 hover:text-green-600 font-medium">Sobre Nós</a>
+    </div>
+  </nav>
+  <!-- FIM NAVBAR -->
+
+  <main class="max-w-4xl mx-auto px-5 py-10 flex flex-col gap-10">
+    <article class="bg-white rounded-2xl shadow-md overflow-hidden flex flex-col">
+      <img src="./assets/pastor.jpg" alt="Cachorrinho Thor" class="w-full h-full object-cover">
+      <div class="p-5">
+        <h2 class="text-2xl font-bold text-primary-500 mb-2">Thor - O Corredor Alegre</h2>
+        <p class="leading-relaxed">Thor é um cãozinho super energético. Adora correr pelo quintal e brincar com sua bolinha azul favorita. Seu olhar doce conquista qualquer um!</p>
+      </div>
+    </article>
+
+    <article class="bg-white rounded-2xl shadow-md overflow-hidden flex flex-col">
+      <img src="./assets/rotrot.jpg" alt="Cachorrinha Bella" class="w-full h-full object-cover">
+      <div class="p-5">
+        <h2 class="text-2xl font-bold text-primary-500 mb-2">Bella - A Observadora</h2>
+        <p class="leading-relaxed">Bella é tranquila e ama observar o mundo pela janela. Sempre com a cabeça inclinada e os olhos atentos, ela transmite paz por onde passa.</p>
+      </div>
+    </article>
+
+    <article class="bg-white rounded-2xl shadow-md overflow-hidden flex flex-col">
+      <img src="./assets/chow.jpg" alt="Cachorrinho Max" class="w-full h-full object-cover">
+      <div class="p-5">
+        <h2 class="text-2xl font-bold text-primary-500 mb-2">Max - O Fotogênico</h2>
+        <p class="leading-relaxed">Max adora fazer poses para fotos! Seja no sofá, na grama ou na escada, ele está sempre pronto para sair bem na câmera com um sorriso canino.</p>
+      </div>
+    </article>
+
+    <article class="bg-white rounded-2xl shadow-md overflow-hidden flex flex-col">
+      <img src="./assets/shiht.jpg" alt="Cachorrinha Nina" class="w-full h-full object-cover">
+      <div class="p-5">
+        <h2 class="text-2xl font-bold text-primary-500 mb-2">Nina - A Aventureira</h2>
+        <p class="leading-relaxed">Nina é cheia de curiosidade! Explora todos os cantinhos da casa e adora quando a levam para passear. Seus latidos de felicidade alegram o dia.</p>
+      </div>
+    </article>
+  </main>
+
+  <footer class="bg-primary-500 text-white text-center py-5 mt-16 rounded-t-[60px]">
+    <p>&copy; 2025 Imperio Dy Jhady. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
