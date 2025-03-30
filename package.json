@@ -1,0 +1,19 @@
+{
+  "name": "comidinha",
+  "version": "1.0.0",
+  "description": "meu cardapi",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./styles/style.css -o ./styles/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.9",
+    "react-toastify": "^11.0.5"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
