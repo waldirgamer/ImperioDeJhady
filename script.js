@@ -147,7 +147,7 @@ checkoutBtn.addEventListener("click", function(){
  if(!isOpen){
 
     Toastify({
-        text: "Ops o restaurante esta fechado",
+        text: "Ops, não estamos atendendo agora",
         duration: 3000,
         newWindow: true,
         close: true,
@@ -192,7 +192,7 @@ window.open(`https://wa.me/${phone}?text=${message} Endereço: ${addressInput.va
 function checkRestaurantOpen(){
     const data = new Date();
     const hora = data.getHours();
-    return hora >= 8 && hora < 22;
+    return hora >= 8 && hora < 18;
     //true = restaurante esta aberto
 }
 
